@@ -1,0 +1,30 @@
+{
+  "template": "A {} is a type of thing.",
+  "n_test_nouns": 541,
+  "galois_v2_zeroshot": {
+    "spearman_fwd": 0.32660647365170975,
+    "spearman_asym": 0.2986232628859097,
+    "pearson_fwd": 0.2835452771494485,
+    "dir_acc": 0.6926229508196722,
+    "n_directional": 244
+  },
+  "galois_wn": {
+    "spearman_fwd": 0.4718734650530935,
+    "spearman_asym": 0.4711271926614523,
+    "dir_acc": 0.8811475409836066
+  },
+  "baselines": {
+    "cosine_frozen_sbert": 0.2935266883760305,
+    "cosine_finetuned": 0.2862798929153268,
+    "dot": 0.26284804063391826,
+    "projection": 0.3248301018271983,
+    "diff_norm": 0.2893929329219465,
+    "order_emb": 0.14861019421549906,
+    "order_emb_dir": 0.46311475409836067
+  },
+  "literature": {
+    "vendrov_order_emb": 0.72,
+    "vilnis_box_emb": 0.74,
+    "nickel_lear": 0.765
+  }
+}

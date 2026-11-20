@@ -1,0 +1,18 @@
+{
+  "seed": 42,
+  "n_concepts": 5000,
+  "gap_sample": 400,
+  "total_constraints": 2538,
+  "base_gap": 0.3665326211652443,
+  "chunk": 2,
+  "methods_tested": [
+    "Coordinate descent",
+    "Hybrid warm-start"
+  ],
+  "wall_times": {
+    "coord_15": 0.3353855609893799,
+    "coord_20": 0.4089353084564209,
+    "hybrid_15": 0.3267955780029297,
+    "hybrid_20": 0.4202611446380615
+  }
+}

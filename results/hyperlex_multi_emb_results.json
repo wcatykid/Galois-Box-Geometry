@@ -1,0 +1,52 @@
+{
+  "glove": {
+    "emb_name": "GloVe-wiki-gigaword-300",
+    "n_test": 541,
+    "oov_rate": 0.0,
+    "oov_count": 0,
+    "cosine_sp": 0.15836903230248328,
+    "cosine_pe": 0.1782581332285669,
+    "proj_sp": 0.1774464712372626,
+    "proj_pe": 0.18678079704138048,
+    "proj_dir": 0.6024590163934426,
+    "oe_sp": 0.0759855919715744,
+    "oe_pe": 0.08237323750670789,
+    "oe_dir": 0.5573770491803278,
+    "galois_sp": 0.4481865467763956,
+    "galois_pe": 0.42106610187672044,
+    "galois_dir": 0.8442622950819673,
+    "galois_sp_fwd": 0.4481865467763956,
+    "galois_sp_asym": 0.4449049092853072,
+    "best_score": "score_fwd",
+    "train_time": 345.5574150085449
+  },
+  "w2v": {
+    "emb_name": "Word2Vec-google-news-300",
+    "n_test": 541,
+    "oov_rate": 0.0,
+    "oov_count": 0,
+    "cosine_sp": 0.23404775942547837,
+    "cosine_pe": 0.219756833086216,
+    "proj_sp": 0.26751770660893637,
+    "proj_pe": 0.24729575555033706,
+    "proj_dir": 0.7868852459016393,
+    "oe_sp": -0.06602396417735619,
+    "oe_pe": -0.037491334639153884,
+    "oe_dir": 0.3155737704918033,
+    "galois_sp": 0.47552731487517025,
+    "galois_pe": 0.42136715758015514,
+    "galois_dir": 0.8647540983606558,
+    "galois_sp_fwd": 0.4714674184540901,
+    "galois_sp_asym": 0.47552731487517025,
+    "best_score": "score_asym",
+    "train_time": 317.8839771747589
+  },
+  "sbert": {
+    "zeroshot_spearman": 0.3266,
+    "zeroshot_pearson": 0.2835,
+    "zeroshot_dir": 0.693,
+    "wn_spearman": 0.4719,
+    "wn_pearson": 0.4709,
+    "wn_dir": 0.881
+  }
+}

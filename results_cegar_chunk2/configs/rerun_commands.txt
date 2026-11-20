@@ -1,0 +1,5 @@
+Best coordinate descent config:
+python cegar_chunk2_focus.py --output_dir results_cegar_chunk2_coord_rerun --seeds 42 --n_concepts 5000 --max_pairs 1000 --gap_sample 150 --neighbor_sample 150 --neighbor_k 10 --only_method coord --step_size 0.2 --iterations 15
+
+Best hybrid config:
+python cegar_chunk2_focus.py --output_dir results_cegar_chunk2_hybrid_rerun --seeds 42 --n_concepts 5000 --max_pairs 1000 --gap_sample 150 --neighbor_sample 150 --neighbor_k 10 --only_method hybrid --step_size 0.2 --iterations 25 --warm_start_iters 7

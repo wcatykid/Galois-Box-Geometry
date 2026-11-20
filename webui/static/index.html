@@ -1,0 +1,612 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Galois NLP Web Interface</title>
+  <style>
+    :root {
+      --paper: rgba(255, 251, 245, 0.86);
+      --ink: #1c2b2d;
+      --muted: #5b6a6c;
+      --accent: #bb4d00;
+      --accent-soft: #ffd5b0;
+      --edge: rgba(28, 43, 45, 0.12);
+      --success: #1f7a57;
+      --warn: #8d3f1a;
+      --shadow: 0 18px 50px rgba(75, 52, 31, 0.12);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Georgia, "Trebuchet MS", serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at top left, rgba(255, 188, 118, 0.55), transparent 28%),
+        radial-gradient(circle at top right, rgba(104, 151, 129, 0.30), transparent 24%),
+        linear-gradient(160deg, #f8f3e9 0%, #efe2d0 42%, #d9e4dd 100%);
+      min-height: 100vh;
+    }
+
+    .shell {
+      width: min(1200px, calc(100% - 32px));
+      margin: 32px auto;
+      padding: 24px;
+      border: 1px solid var(--edge);
+      border-radius: 28px;
+      background: var(--paper);
+      backdrop-filter: blur(10px);
+      box-shadow: var(--shadow);
+      animation: rise 450ms ease-out;
+    }
+
+    @keyframes rise {
+      from { opacity: 0; transform: translateY(14px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    h1, h2, h3 {
+      margin: 0 0 10px;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+    }
+
+    p {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.55;
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: 1.4fr 1fr;
+      gap: 18px;
+      align-items: stretch;
+      margin-bottom: 18px;
+    }
+
+    .hero-card, .panel {
+      border: 1px solid var(--edge);
+      border-radius: 22px;
+      background: rgba(255, 255, 255, 0.72);
+      padding: 20px;
+    }
+
+    .hero-card strong {
+      display: inline-block;
+      margin-bottom: 10px;
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--accent);
+    }
+
+    .status-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: #6d2a00;
+      font-size: 0.92rem;
+      margin-top: 14px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .stack {
+      display: grid;
+      gap: 18px;
+    }
+
+    .form-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 14px;
+    }
+
+    label {
+      display: block;
+      font-size: 0.9rem;
+      margin-bottom: 6px;
+      color: var(--muted);
+    }
+
+    input, select, button {
+      width: 100%;
+      border-radius: 14px;
+      border: 1px solid rgba(28, 43, 45, 0.18);
+      padding: 11px 12px;
+      font: inherit;
+      color: var(--ink);
+      background: rgba(255, 255, 255, 0.92);
+    }
+
+    button {
+      cursor: pointer;
+      border: none;
+      background: linear-gradient(135deg, #c85700, #8b3800);
+      color: #fff7f1;
+      font-weight: 600;
+      transition: transform 160ms ease, box-shadow 160ms ease;
+      box-shadow: 0 10px 24px rgba(139, 56, 0, 0.22);
+    }
+
+    button:hover { transform: translateY(-1px); }
+    button:disabled {
+      opacity: 0.7;
+      cursor: wait;
+      transform: none;
+    }
+
+    .secondary {
+      background: linear-gradient(135deg, #315c53, #1f3d36);
+      box-shadow: 0 10px 24px rgba(31, 61, 54, 0.18);
+    }
+
+    .actions {
+      display: flex;
+      gap: 10px;
+      margin-top: 14px;
+    }
+
+    .metrics {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 10px;
+      margin-top: 14px;
+    }
+
+    .metric {
+      padding: 12px;
+      border-radius: 16px;
+      background: rgba(244, 237, 227, 0.9);
+      border: 1px solid rgba(28, 43, 45, 0.08);
+    }
+
+    .metric span {
+      display: block;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+
+    .metric strong {
+      font-size: 1.25rem;
+    }
+
+    pre {
+      margin: 14px 0 0;
+      padding: 14px;
+      border-radius: 16px;
+      background: #1f2627;
+      color: #eef4f2;
+      overflow: auto;
+      font-size: 0.88rem;
+      line-height: 1.45;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 14px;
+      font-size: 0.93rem;
+    }
+
+    th, td {
+      text-align: left;
+      padding: 10px 8px;
+      border-bottom: 1px solid rgba(28, 43, 45, 0.10);
+      vertical-align: top;
+    }
+
+    th {
+      color: var(--muted);
+      font-weight: 600;
+      font-size: 0.84rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+
+    .hint {
+      margin-top: 10px;
+      font-size: 0.88rem;
+      color: var(--muted);
+    }
+
+    .result-label {
+      margin-top: 14px;
+      padding: 12px;
+      border-radius: 16px;
+      background: rgba(31, 122, 87, 0.10);
+      color: var(--success);
+      font-weight: 600;
+    }
+
+    .error {
+      background: rgba(141, 63, 26, 0.12);
+      color: var(--warn);
+    }
+
+    @media (max-width: 920px) {
+      .hero, .grid, .form-grid, .metrics {
+        grid-template-columns: 1fr;
+      }
+
+      .actions {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <section class="hero">
+      <div class="hero-card">
+        <strong>Offline NumPy Pipeline</strong>
+        <h1>Galois NLP Training + Inference Console</h1>
+        <p>
+          Train the existing synthetic NLI model, save checkpoints inside this repo,
+          and run repeatable inference without leaving the project folder.
+        </p>
+        <div id="modelStatus" class="status-badge">Checking for saved models...</div>
+      </div>
+      <div class="hero-card">
+        <h3>What this wraps</h3>
+        <p>
+          The interface uses the integrated offline trainer already in this repository,
+          so it works without extra services or internet downloads.
+        </p>
+        <p class="hint">Saved models are written to <code>results/webui_models/</code>.</p>
+      </div>
+    </section>
+
+    <section class="stack" style="margin-bottom: 18px;">
+      <div class="panel">
+        <h2>Key Results</h2>
+        <p>Synthetic-data comparison for the benchmark baselines and the current saved web UI checkpoint.</p>
+        <div id="benchmarkTableWrap"></div>
+      </div>
+    </section>
+
+    <section class="grid">
+      <div class="panel">
+        <h2>Train Model</h2>
+        <p>Adjust the core synthetic-training settings, then start a new run.</p>
+        <div class="form-grid">
+          <div>
+            <label for="seed">Seed</label>
+            <input id="seed" type="number" value="42">
+          </div>
+          <div>
+            <label for="epochs">Epochs</label>
+            <input id="epochs" type="number" value="20">
+          </div>
+          <div>
+            <label for="nTrain">Train examples</label>
+            <input id="nTrain" type="number" value="3000">
+          </div>
+          <div>
+            <label for="nVal">Validation examples</label>
+            <input id="nVal" type="number" value="500">
+          </div>
+          <div>
+            <label for="nTest">Test examples</label>
+            <input id="nTest" type="number" value="1000">
+          </div>
+          <div>
+            <label for="boxDim">Box dim</label>
+            <input id="boxDim" type="number" value="64">
+          </div>
+          <div>
+            <label for="hiddenDim">Hidden dim</label>
+            <input id="hiddenDim" type="number" value="256">
+          </div>
+          <div>
+            <label for="learningRate">Learning rate</label>
+            <input id="learningRate" type="number" step="0.0001" value="0.001">
+          </div>
+        </div>
+        <div class="actions">
+          <button id="trainButton">Start Training</button>
+        </div>
+        <div id="trainSummary" class="hint">No training run yet.</div>
+        <div id="trainMetrics" class="metrics"></div>
+        <pre id="trainHistory">Training history will appear here.</pre>
+      </div>
+      <div class="panel">
+        <h2>Synthetic Dataset Inference</h2>
+        <p>Run binary entailment inference over a fresh synthetic test split with the latest saved model.</p>
+        <div class="form-grid">
+          <div>
+            <label for="inferSamples">Inference samples</label>
+            <input id="inferSamples" type="number" value="120">
+          </div>
+          <div>
+            <label for="inferSeed">Inference seed</label>
+            <input id="inferSeed" type="number" value="123">
+          </div>
+        </div>
+        <div class="actions">
+          <button id="inferButton" class="secondary">Run Synthetic Inference</button>
+        </div>
+        <div id="inferSummary" class="hint">No inference run yet.</div>
+        <div id="inferMetrics" class="metrics"></div>
+        <div id="inferTableWrap"></div>
+      </div>
+    </section>
+
+    <section class="grid" style="margin-top: 18px;">
+      <div class="panel">
+        <h2>Custom Pair Probe</h2>
+        <p>Select two synthetic sentences and score whether sentence 1 entails sentence 2.</p>
+        <div class="form-grid">
+          <div>
+            <label for="sentence1">Sentence 1</label>
+            <select id="sentence1"></select>
+          </div>
+          <div>
+            <label for="sentence2">Sentence 2</label>
+            <select id="sentence2"></select>
+          </div>
+        </div>
+        <div class="actions">
+          <button id="pairButton">Score Pair</button>
+        </div>
+        <div id="pairResult" class="hint">Pair inference will appear here.</div>
+      </div>
+
+      <div class="panel">
+        <h2>Saved Model Snapshot</h2>
+        <p>The interface tracks the newest checkpoint and uses it by default.</p>
+        <pre id="statusJson">Loading status...</pre>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const modelStatus = document.getElementById("modelStatus");
+    const statusJson = document.getElementById("statusJson");
+    const trainButton = document.getElementById("trainButton");
+    const inferButton = document.getElementById("inferButton");
+    const pairButton = document.getElementById("pairButton");
+    const benchmarkTableWrap = document.getElementById("benchmarkTableWrap");
+    const benchmarkRows = [
+      { model: "Majority class", accuracy: 0.333, f1: 0.500, auc: 0.500 },
+      { model: "Cosine similarity (SBERT-style)", accuracy: 0.494, f1: 0.568, auc: 0.942 },
+      { model: "Dot product", accuracy: 0.731, f1: 0.712, auc: 0.943 },
+      { model: "Linear SVM", accuracy: 0.722, f1: 0.706, auc: 0.912 },
+      { model: "Order embeddings", accuracy: 0.832, f1: 0.784, auc: 0.908 },
+      { model: "Galois-NLP (no CEGAR)", accuracy: 0.937, f1: 0.900, auc: 0.986 },
+      { model: "Galois-NLP (CEGAR)", accuracy: 0.941, f1: 0.907, auc: 0.984 }
+    ];
+
+    async function requestJson(url, method = "GET", body = null) {
+      const response = await fetch(url, {
+        method,
+        headers: { "Content-Type": "application/json" },
+        body: body ? JSON.stringify(body) : null
+      });
+      const data = await response.json();
+      if (!response.ok) {
+        throw new Error(data.error || "Request failed");
+      }
+      return data;
+    }
+
+    function setBusy(button, busy, label) {
+      button.disabled = busy;
+      button.textContent = label;
+    }
+
+    function renderMetrics(container, metrics) {
+      container.innerHTML = "";
+      const fields = [
+        ["accuracy", "Accuracy"],
+        ["f1", "F1"],
+        ["auc", "AUC"],
+        ["precision", "Precision"],
+        ["recall", "Recall"],
+        ["best_thr", "Threshold"]
+      ];
+      for (const [key, label] of fields) {
+        if (!(key in metrics)) continue;
+        const card = document.createElement("div");
+        card.className = "metric";
+        card.innerHTML = `<span>${label}</span><strong>${Number(metrics[key]).toFixed(4)}</strong>`;
+        container.appendChild(card);
+      }
+    }
+
+    function renderSampleTable(container, rows) {
+      if (!rows.length) {
+        container.innerHTML = "<p class='hint'>No preview rows available.</p>";
+        return;
+      }
+      const header = `
+        <table>
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Sentence 1</th>
+              <th>Sentence 2</th>
+              <th>True Label</th>
+              <th>Score</th>
+              <th>Predicted</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${rows.map(row => `
+              <tr>
+                <td>${row.index}</td>
+                <td>${row.sentence_1}</td>
+                <td>${row.sentence_2}</td>
+                <td>${row.true_label}</td>
+                <td>${row.entailment_score}</td>
+                <td>${row.predicted_binary_label}</td>
+              </tr>
+            `).join("")}
+          </tbody>
+        </table>
+      `;
+      container.innerHTML = header;
+    }
+
+    function renderBenchmarkTable(status = null) {
+      const rows = [...benchmarkRows];
+      const metrics = status?.metadata?.test_metrics;
+      if (metrics) {
+        rows.push({
+          model: "Galois-NLP (CEGAR, current run)",
+          accuracy: Number(metrics.accuracy),
+          f1: Number(metrics.f1),
+          auc: Number(metrics.auc),
+          highlight: true
+        });
+      }
+      benchmarkTableWrap.innerHTML = `
+        <table>
+          <thead>
+            <tr>
+              <th>Model</th>
+              <th>Accuracy</th>
+              <th>F1</th>
+              <th>AUC</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${rows.map(row => `
+              <tr>
+                <td>${row.highlight ? `<strong>${row.model}</strong>` : row.model}</td>
+                <td>${row.highlight ? `<strong>${row.accuracy.toFixed(3)}</strong>` : row.accuracy.toFixed(3)}</td>
+                <td>${row.highlight ? `<strong>${row.f1.toFixed(3)}</strong>` : row.f1.toFixed(3)}</td>
+                <td>${row.highlight ? `<strong>${row.auc.toFixed(3)}</strong>` : row.auc.toFixed(3)}</td>
+              </tr>
+            `).join("")}
+          </tbody>
+        </table>
+      `;
+    }
+
+    async function refreshStatus() {
+      const status = await requestJson("/api/status");
+      statusJson.textContent = JSON.stringify(status, null, 2);
+      renderBenchmarkTable(status);
+      if (status.available) {
+        const modelName = status.model_path.split(/[/\\\\]/).pop();
+        modelStatus.textContent = `Latest checkpoint ready: ${modelName}`;
+      } else {
+        modelStatus.textContent = "No checkpoint yet. Train a model to begin inferencing.";
+        renderBenchmarkTable();
+      }
+      return status;
+    }
+
+    async function loadSentences() {
+      const data = await requestJson("/api/sentences");
+      const sentence1 = document.getElementById("sentence1");
+      const sentence2 = document.getElementById("sentence2");
+      for (const select of [sentence1, sentence2]) {
+        select.innerHTML = "";
+        for (const entry of data.sentences) {
+          const option = document.createElement("option");
+          option.value = entry.id;
+          option.textContent = `${entry.id}: ${entry.text}`;
+          select.appendChild(option);
+        }
+      }
+      sentence1.value = "s5";
+      sentence2.value = "s4";
+    }
+
+    trainButton.addEventListener("click", async () => {
+      const summary = document.getElementById("trainSummary");
+      const metrics = document.getElementById("trainMetrics");
+      const history = document.getElementById("trainHistory");
+      setBusy(trainButton, true, "Training...");
+      summary.className = "hint";
+      summary.textContent = "Training is running. This may take a little while on CPU.";
+      try {
+        const result = await requestJson("/api/train", "POST", {
+          seed: Number(document.getElementById("seed").value),
+          n_epochs: Number(document.getElementById("epochs").value),
+          n_train: Number(document.getElementById("nTrain").value),
+          n_val: Number(document.getElementById("nVal").value),
+          n_test: Number(document.getElementById("nTest").value),
+          box_dim: Number(document.getElementById("boxDim").value),
+          hidden_dim: Number(document.getElementById("hiddenDim").value),
+          lr: Number(document.getElementById("learningRate").value)
+        });
+        summary.textContent = `Saved ${result.model_path} in ${result.train_time_seconds.toFixed(2)} seconds.`;
+        renderMetrics(metrics, result.test_metrics);
+        history.textContent = JSON.stringify(result.history, null, 2);
+        await refreshStatus();
+      } catch (error) {
+        summary.textContent = error.message;
+        summary.className = "result-label error";
+      } finally {
+        setBusy(trainButton, false, "Start Training");
+      }
+    });
+
+    inferButton.addEventListener("click", async () => {
+      const summary = document.getElementById("inferSummary");
+      const metrics = document.getElementById("inferMetrics");
+      const tableWrap = document.getElementById("inferTableWrap");
+      setBusy(inferButton, true, "Inferencing...");
+      summary.className = "hint";
+      summary.textContent = "Running synthetic dataset inference.";
+      try {
+        const result = await requestJson("/api/infer/synthetic", "POST", {
+          n_samples: Number(document.getElementById("inferSamples").value),
+          seed: Number(document.getElementById("inferSeed").value)
+        });
+        summary.textContent =
+          `Threshold ${result.threshold.toFixed(4)} | TP ${result.confusion_matrix.tp}, FP ${result.confusion_matrix.fp}, FN ${result.confusion_matrix.fn}, TN ${result.confusion_matrix.tn}`;
+        renderMetrics(metrics, result.metrics);
+        renderSampleTable(tableWrap, result.samples);
+      } catch (error) {
+        summary.textContent = error.message;
+        summary.className = "result-label error";
+      } finally {
+        setBusy(inferButton, false, "Run Synthetic Inference");
+      }
+    });
+
+    pairButton.addEventListener("click", async () => {
+      const pairResult = document.getElementById("pairResult");
+      setBusy(pairButton, true, "Scoring...");
+      pairResult.className = "hint";
+      try {
+        const result = await requestJson("/api/infer/custom", "POST", {
+          sentence_1_id: document.getElementById("sentence1").value,
+          sentence_2_id: document.getElementById("sentence2").value
+        });
+        pairResult.className = "result-label";
+        pairResult.textContent =
+          `${result.predicted_binary_label.toUpperCase()} | score ${result.entailment_score.toFixed(4)} | violation ${result.containment_violation.toFixed(4)} | widths ${result.box_width_mean_sentence_1.toFixed(4)} / ${result.box_width_mean_sentence_2.toFixed(4)}`;
+      } catch (error) {
+        pairResult.className = "result-label error";
+        pairResult.textContent = error.message;
+      } finally {
+        setBusy(pairButton, false, "Score Pair");
+      }
+    });
+
+    Promise.all([refreshStatus(), loadSentences()]).catch((error) => {
+      modelStatus.textContent = error.message;
+      statusJson.textContent = error.stack || error.message;
+    });
+  </script>
+</body>
+</html>

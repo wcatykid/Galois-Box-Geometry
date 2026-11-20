@@ -1,0 +1,4 @@
+category,method,hyperparameters,mean_aggregate_score,mean_fix_rate,mean_net_improvement,mean_final_violation_rate,mean_Galois_gap_change,mean_box_displacement,mean_box_volume_change,mean_preservation_metric,mean_hop_weighted_improvement
+best_coordinate_descent,Coordinate descent,"step_size=0.2,iterations=15",3.7026103259661123,1.0,434.0,0.0,0.08201160368976085,0.12285665734145958,0.25277747736399203,0.8877750902374859,1.0
+best_hybrid,Hybrid warm-start,"step_size=0.2,iterations=25,warm_start_iters=7",3.712799023218223,1.0,434.0,0.0,0.08238655014747259,0.12287083085645963,0.2528110055418386,0.8988044481203086,1.0
+best_overall,Hybrid warm-start,"step_size=0.2,iterations=25,warm_start_iters=7",3.712799023218223,1.0,434.0,0.0,0.08238655014747259,0.12287083085645963,0.2528110055418386,0.8988044481203086,1.0

@@ -1,0 +1,39 @@
+{
+  "spectral_norms": {
+    "W1": 3.290556922770169,
+    "W2": 4.768845112449902,
+    "Wc": 0.45817066117379207,
+    "Ww": 4.095049884528032,
+    "Wd1": 2.2171991158781235,
+    "Wd2": 1.4485275046763604
+  },
+  "lipschitz_worst_case": {
+    "L_alpha": 64.2601628377207,
+    "L_gamma": 1.6058369513467854,
+    "L": 65.2601628377207
+  },
+  "lipschitz_empirical": {
+    "L_alpha": 7.695754630067085,
+    "L_gamma": 0.3003276505599444,
+    "L": 8.695754630067086,
+    "perturbation_eps": 0.01,
+    "n_samples": 2000,
+    "n_perturbations": 50
+  },
+  "delta": 0.05160513068778016,
+  "delta_prime": 0.026876203681468792,
+  "delta_prime_max": 0.4708435195890542,
+  "tau": 0.5,
+  "epsilon_empirical": 0.28531400328953843,
+  "epsilon_worst_case": 1.805550559400182,
+  "galois_loss_final": 0.05160513068778016,
+  "observed_gap": {
+    "score_diff": 0.23527644999294356,
+    "viol_per_dim": 0.0693397008340685
+  },
+  "bound_holds_empirical": true,
+  "reconstruction": {
+    "mean_error": 0.9239478742209831,
+    "mean_cosine": 0.367226120684107
+  }
+}

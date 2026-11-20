@@ -1,0 +1,14 @@
+{
+  "simple_autoencoder": {
+    "architecture": "384->512->128->512->384 (ReLU, no LN, no geometric constraint)",
+    "mean_cosine": 0.6359068155288696,
+    "std_cosine": 0.10561606287956238,
+    "median_cosine": 0.6361281871795654,
+    "mse": 0.0015308670699596405,
+    "ci_95": [
+      0.6326041827619145,
+      0.6392094482958247
+    ],
+    "n_test": 3932
+  }
+}

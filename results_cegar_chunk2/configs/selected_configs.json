@@ -1,0 +1,76 @@
+{
+  "selected_coordinate_configs": [
+    {
+      "iterations": 15,
+      "step_size": 0.2
+    },
+    {
+      "iterations": 20,
+      "step_size": 0.2
+    }
+  ],
+  "selected_hybrid_configs": [
+    {
+      "iterations": 15,
+      "step_size": 0.2,
+      "warm_start_iters": 7
+    },
+    {
+      "iterations": 20,
+      "step_size": 0.2,
+      "warm_start_iters": 7
+    },
+    {
+      "iterations": 25,
+      "step_size": 0.2,
+      "warm_start_iters": 7
+    }
+  ],
+  "best_coordinate_config": {
+    "step_size": 0.2,
+    "iterations": 15
+  },
+  "best_hybrid_config": {
+    "step_size": 0.2,
+    "iterations": 25,
+    "warm_start_iters": 7
+  },
+  "best_overall": {
+    "method": "Hybrid warm-start",
+    "hyperparameters": {
+      "step_size": 0.2,
+      "iterations": 25,
+      "warm_start_iters": 7
+    }
+  },
+  "bootstrap": {
+    "coordinate_descent": {
+      "fix_rate_ci": [
+        1.0,
+        1.0
+      ],
+      "net_improvement_ci": [
+        405.0,
+        464.0
+      ],
+      "final_violation_rate_ci": [
+        0.0,
+        0.0
+      ]
+    },
+    "hybrid": {
+      "fix_rate_ci": [
+        1.0,
+        1.0
+      ],
+      "net_improvement_ci": [
+        405.0,
+        464.0
+      ],
+      "final_violation_rate_ci": [
+        0.0,
+        0.0
+      ]
+    }
+  }
+}

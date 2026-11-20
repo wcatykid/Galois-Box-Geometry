@@ -1,0 +1,22 @@
+{
+  "seed": 42,
+  "verdict": "NOT_VALIDATED",
+  "delta_tau_4plus": -0.07917657176952464,
+  "delta_tau_1": -0.0073429992315790504,
+  "delta_tau_all": -0.05231208451592606,
+  "mean_hop_buffer": null,
+  "ci_4plus": {
+    "mean_delta": -0.07872119449477509,
+    "ci_lo": -0.11994487312557187,
+    "ci_hi": -0.03779234699512231,
+    "sig": true
+  },
+  "buf_stats": {
+    "buf_size": 4000,
+    "fp_rate": 0.21975,
+    "fn_rate": 0.78025,
+    "mean_hop": null,
+    "n_misclassified": 7244,
+    "n_pos_total": 62035
+  }
+}

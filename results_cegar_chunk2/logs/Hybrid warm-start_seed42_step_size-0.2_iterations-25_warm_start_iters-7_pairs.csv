@@ -1,0 +1,1001 @@
+hyponym,hypernym,hop_bucket,hop,was_violated,is_violated
+calve,give birth,1,1,1,0
+block,emboss,1,1,1,0
+crawl,feel,1,1,0,0
+pair,arrange,1,1,0,0
+phase in,introduce,1,1,0,0
+lock in,confine,1,1,0,0
+prim,compress,1,1,1,0
+charter,license,1,1,0,0
+retrograde,orb,1,1,1,0
+rattle down,recite,1,1,0,0
+gown,dress,1,1,1,0
+keep to oneself,withhold,1,1,1,0
+interpose,introduce,1,1,1,0
+colonize,annex,1,1,1,0
+hedge,enclose,1,1,0,0
+climb,progress,1,1,1,0
+call,ask,1,1,1,0
+tuck,enclose,1,1,0,0
+devil,cook,1,1,0,0
+guy,brace,1,1,0,0
+cut out,extinguish,1,1,1,0
+verse,write,1,1,0,0
+ride,climb,1,1,0,0
+signify,mean,1,1,0,0
+back,finance,1,1,0,0
+huddle,cluster,1,1,0,0
+confuse,mistake,1,1,0,0
+calibrate,tag,1,1,1,0
+rear back,rear,1,1,0,0
+skin over,heal,1,1,0,0
+dissolve,upset,1,1,1,0
+comb,groom,1,1,1,0
+feed,provide,1,1,1,0
+drown,extinguish,1,1,1,0
+scale down,proportion,1,1,0,0
+project,impute,1,1,0,0
+descant,sing,1,1,0,0
+infix,affix,1,1,0,0
+report out,return,1,1,0,0
+top,complete,1,1,1,0
+chloroform,anesthetize,1,1,1,0
+settle,build up,1,1,1,0
+reshuffle,rearrange,1,1,0,0
+criminalize,treat,1,1,0,0
+note,write down,1,1,1,0
+reissue,issue,1,1,1,0
+derive,evolve,1,1,1,0
+pleat,fold,1,1,0,0
+overcast,sew,1,1,0,0
+take,become,1,1,0,0
+safeguard,protect,1,1,1,0
+litter,give birth,1,1,1,0
+ballast,brace,1,1,0,0
+cosponsor,sponsor,1,1,1,0
+goose step,march,1,1,0,0
+fritter,consume,1,1,1,0
+downsize,furlough,1,1,1,0
+cuddle,embrace,1,1,0,0
+aggregate,come,1,1,1,0
+reconvene,convene,1,1,1,0
+move in,occupy,1,1,0,0
+shut off,barricade,1,1,0,0
+crash,occupy,1,1,0,0
+rush,run,1,1,0,0
+chuck,throw,1,1,0,0
+get by,pass,1,1,1,0
+double cross,betray,1,1,0,0
+pull,injure,1,1,1,0
+crave,beg,1,1,1,0
+cast off,sew,1,1,1,0
+smash,collide,1,1,1,0
+reel off,reel,1,1,0,0
+classify,categorize,1,1,1,0
+fly blind,fly,1,1,0,0
+dissuade,rede,1,1,1,0
+strong-arm,intimidate,1,1,0,0
+group,meet,1,1,1,0
+draw,write,1,1,0,0
+wet,make,1,1,0,0
+feed,regale,1,1,1,0
+victimize,cheat,1,1,1,0
+make,tidy,1,1,1,0
+bullet vote,vote,1,1,0,0
+withhold,deny,1,1,0,0
+melt,dissolve,1,1,0,0
+paw,caress,1,1,1,0
+weigh,quantify,1,1,0,0
+postmark,stamp,1,1,0,0
+distend,swell,1,1,1,0
+deprive,withhold,1,1,0,0
+instruct,order,1,1,1,0
+pen up,restrain,1,1,0,0
+bet on,bet,1,1,0,0
+clamp down,restrict,1,1,0,0
+reserve,request,1,1,0,0
+blockade,obstruct,1,1,0,0
+mechanize,equip,1,1,0,0
+follow up,enhance,1,1,0,0
+give,distribute,1,1,1,0
+troll,angle,1,1,0,0
+founder,sink,1,1,0,0
+extrapolate,deduce,1,1,1,0
+clinch,settle,1,1,1,0
+embed,group,1,1,0,0
+elbow,nudge,1,1,0,0
+character,scratch,1,1,1,0
+moderate,hash out,1,1,1,0
+turn out,equip,1,1,1,0
+cross,write,1,1,0,0
+fire,bake,1,1,1,0
+run up,sew,1,1,1,0
+ventilate,circulate,1,1,1,0
+scruple,hesitate,1,1,0,0
+get on,approach,1,1,0,0
+turn a nice dime,profit,1,1,0,0
+dado,groove,1,1,0,0
+convoy,escort,1,1,0,0
+sit in,disobey,1,1,0,0
+biodegrade,decompose,1,1,0,0
+scrounge,hunt,1,1,0,0
+turn out,meet,1,1,0,0
+encore,request,1,1,0,0
+stoke,tend,1,1,1,0
+drown out,make noise,1,1,0,0
+forge,beat,1,1,1,0
+shellac,varnish,1,1,0,0
+sober up,become,1,1,0,0
+close,fill,1,1,1,0
+belly,swell,1,1,1,0
+fuse,liquefy,1,1,1,0
+kill,veto,1,1,1,0
+hold over,intimidate,1,1,0,0
+log,record,1,1,0,0
+assign,distribute,1,1,1,0
+level,talk,1,1,0,0
+preform,shape,1,1,0,0
+process,calculate,1,1,1,0
+rave,party,1,1,0,0
+stick,pierce,1,1,1,0
+utilize,change,1,1,0,0
+procrastinate,delay,1,1,0,0
+reschedule,schedule,1,1,0,0
+compare,study,1,1,0,0
+impute,impute,1,1,0,0
+snip,thin out,1,1,1,0
+outfox,surpass,1,1,1,0
+ferment,inflame,1,1,1,0
+flex,flaunt,1,1,0,0
+restrain,restrict,1,1,1,0
+prejudice,influence,1,1,0,0
+yowl,shriek,1,1,1,0
+call on,appeal,1,1,0,0
+badge,tag,1,1,1,0
+score,record,1,1,1,0
+baste,moisten,1,1,1,0
+rebury,lay,1,1,1,0
+turn thumbs down,vote,1,1,0,0
+reseed,seed,1,1,0,0
+remount,horse,1,1,0,0
+pay,settle,1,1,1,0
+shore,bound,1,1,1,0
+dissolve,liquefy,1,1,1,0
+succumb,die,1,1,1,0
+pyramid,deal,1,1,1,0
+immunize,inject,1,1,0,0
+sting,pierce,1,1,1,0
+fag,serve,1,1,0,0
+image,visualize,1,1,1,0
+cut off,detach,1,1,0,0
+stiffen,restrict,1,1,0,0
+sculpt,carve,1,1,0,0
+char,burn,1,1,1,0
+pack on,gain,1,1,0,0
+backfire,make noise,1,1,0,0
+bless,gesticulate,1,1,1,0
+judge,decide,1,1,1,0
+clog,restrain,1,1,0,0
+offer,give,1,1,1,0
+drench,provide,1,1,0,0
+outclass,subordinate,1,1,1,0
+placard,post,1,1,0,0
+overexpose,expose,1,1,0,0
+hobnob,socialize,1,1,0,0
+stoop to,patronize,1,1,1,0
+chain up,tie down,1,1,1,0
+repot,pot,1,1,0,0
+swallow,believe,1,1,1,0
+stagger,arrange,1,1,0,0
+satellite,air,1,1,0,0
+barter away,trade,1,1,0,0
+guide,direct,1,1,1,0
+survey,calculate,1,1,0,0
+militate,influence,1,1,0,0
+submit,yield,1,1,1,0
+believe,believe,1,1,0,0
+vouchsafe,allow,1,1,1,0
+computerize,store,1,1,0,0
+plaster,affix,1,1,0,0
+sideline,demote,1,1,1,0
+read,predict,1,1,1,0
+mumble,chew,1,1,0,0
+list,register,1,1,1,0
+fell,sew,1,1,0,0
+lighten,cheer,1,1,0,0
+declare,proclaim,1,1,0,0
+submerge,immerse,1,1,0,0
+wish,greet,1,1,1,0
+slash,reduce,1,1,0,0
+confer,hash out,1,1,1,0
+prefix,affix,1,1,0,0
+sky dive,chute,1,1,0,0
+consult,rede,1,1,1,0
+defend,protect,1,1,1,0
+sense,detect,1,1,1,0
+accession,record,1,1,0,0
+sprinkle,scatter,1,1,0,0
+admonish,knock,1,1,0,0
+cavil,object,1,1,0,0
+make,develop,1,1,1,0
+suspect,think,1,1,0,0
+conjugate,blend,1,1,0,0
+beard,rim,1,1,1,0
+indent,flex,1,1,1,0
+darken,tarnish,1,1,1,0
+ventilate,expose,1,1,0,0
+rag,break up,1,1,1,0
+sportscast,air,1,1,0,0
+flicker,flash,1,1,0,0
+scratch,carve,1,1,0,0
+book,register,1,1,1,0
+laminate,cleave,1,1,1,0
+trust,believe,1,1,1,0
+subsidize,support,1,1,0,0
+singe,char,1,1,0,0
+nuzzle,excavate,1,1,1,0
+drive,mean,1,1,1,0
+discredit,dismiss,1,1,0,0
+kindle,flare up,1,1,1,0
+bob,dress,1,1,0,0
+brew,soak,1,1,1,0
+feign,misrepresent,1,1,1,0
+beat,shape,1,1,0,0
+ordain,decree,1,1,0,0
+flame,chastise,1,1,1,0
+weigh anchor,heave,1,1,1,0
+portray,represent,1,1,0,0
+check,write out,1,1,0,0
+harsh on,knock,1,1,1,0
+shrimp,fish,1,1,0,0
+budget for,allow,1,1,0,0
+rake,sweep,1,1,1,0
+scotch tape,tape,1,1,0,0
+build up,develop,1,1,0,0
+mesh,relate,1,1,1,0
+bound,enclose,1,1,1,0
+typeset,print,1,1,0,0
+record,save,1,1,1,0
+recruit,enlist,1,1,1,0
+rehear,hear,1,1,0,0
+torment,pain,1,1,0,0
+lob,throw,1,1,0,0
+toss in,add,1,1,0,0
+pander,provide,1,1,0,0
+pool,group,1,1,0,0
+stampede,flee,1,1,1,0
+transpire,evaporate,1,1,0,0
+armor,equip,1,1,1,0
+bilk,cheat,1,1,0,0
+apply,request,1,1,0,0
+exorcise,eject,1,1,0,0
+autograph,sign,1,1,1,0
+run down,consume,1,1,0,0
+unlock,disengage,1,1,1,0
+premise,set forth,1,1,1,0
+head,direct,1,1,1,0
+rivet,absorb,1,1,0,0
+reflect,indicate,1,1,1,0
+skitter,twitch,1,1,0,0
+axe,chop,1,1,1,0
+impress,dye,1,1,0,0
+drape,arrange,1,1,0,0
+mail,send,1,1,1,0
+bifurcate,branch,1,1,1,0
+peroxide,bleach,1,1,1,0
+complexion,tint,1,1,1,0
+hype up,agitate,1,1,0,0
+scribe,score,1,1,0,0
+streak,run,1,1,0,0
+swoop,snatch,1,1,1,0
+clock,quantify,1,1,0,0
+carry,compensate,1,1,1,0
+mark off,restrict,1,1,0,0
+spar,equip,1,1,1,0
+burst out,express,1,1,0,0
+bow,gesticulate,1,1,1,0
+gore,pierce,1,1,1,0
+hem,sew,1,1,0,0
+horseshoe,equip,1,1,1,0
+retrain,train,1,1,0,0
+ascend,go back,1,1,1,0
+swag,rock,1,1,0,0
+winnow,fan,1,1,0,0
+propound,rede,1,1,1,0
+wrong,treat,1,1,0,0
+gag,joke,1,1,0,0
+concord,arrange,1,1,1,0
+maim,injure,1,1,0,0
+bead,string,1,1,0,0
+try,melt,1,1,1,0
+mound,shape,1,1,0,0
+pinion,restrain,1,1,1,0
+reform,better,1,1,0,0
+tease,disentangle,1,1,1,0
+scale up,proportion,1,1,0,0
+beg,request,1,1,0,0
+kitten,give birth,1,1,1,0
+plumb,quantify,1,1,0,0
+roll over,invest,1,1,0,0
+carry weight,determine,1,1,0,0
+fawn,give birth,1,1,1,0
+see,detect,1,1,0,0
+pot,implant,1,1,0,0
+hive,meet,1,1,0,0
+deplane,get off,1,1,0,0
+approach,address,1,1,0,0
+suffocate,stifle,1,1,1,0
+goose,pump,1,1,1,0
+write out,write,1,1,0,0
+collect,roll up,1,1,0,0
+layer,shape,1,1,0,0
+dimension,mark,1,1,0,0
+overwrite,write,1,1,0,0
+speculate,invest,1,1,0,0
+line up,arrange,1,1,0,0
+decorate,honor,1,1,0,0
+itemize,number,1,1,0,0
+deflate,reduce,1,1,0,0
+drop,give birth,1,1,1,0
+fray,break,1,1,0,0
+tap,pierce,1,1,1,0
+run,enforce,1,1,0,0
+beggar,defy,1,1,1,0
+flip,throw,1,1,0,0
+remit,pay,1,1,0,0
+underpay,pay,1,1,1,0
+avow,admit,1,1,1,0
+tie down,restrain,1,1,0,0
+perm,wave,1,1,1,0
+lapse,slip,1,1,1,0
+give,toast,1,1,1,0
+spear,transfix,1,1,1,0
+bud,develop,1,1,1,0
+spangle,glitter,1,1,1,0
+souse,cook,1,1,0,0
+ferry,bring,1,1,1,0
+rag,play,1,1,0,0
+market,deal,1,1,0,0
+corral,roll up,1,1,1,0
+land,bring,1,1,1,0
+want,demand,1,1,0,0
+congratulate,wish,1,1,1,0
+visit,tour,1,1,1,0
+prefigure,imagine,1,1,1,0
+tumble,toss,1,1,1,0
+chamber,house,1,1,1,0
+regale,provide,1,1,0,0
+live in,board,1,1,0,0
+tweak,pinch,1,1,1,0
+sough,make noise,1,1,0,0
+write copy,write,1,1,0,0
+flush,rinse,1,1,0,0
+quarter,divide,1,1,0,0
+keep tabs on,watch,1,1,0,0
+shear,snip,1,1,1,0
+spend,consume,1,1,1,0
+add,calculate,1,1,0,0
+gauge,blend,1,1,0,0
+singsong,chant,1,1,0,0
+net,yield,1,1,1,0
+explode,disprove,1,1,1,0
+welter,roll over,1,1,1,0
+dateline,date,1,1,1,0
+sew,fashion,1,1,0,0
+bandy,hash out,1,1,0,0
+veto,oppose,1,1,1,0
+freewheel,coast,1,1,1,0
+coal,take in,1,1,1,0
+chop,strike,1,1,0,0
+mapquest,research,1,1,0,0
+totter,rock,1,1,0,0
+wave,dress,1,1,0,0
+rede,hash out,1,1,1,0
+cut,record,1,1,0,0
+shred,tear,1,1,0,0
+palaver,parley,1,1,1,0
+compromise,queer,1,1,1,0
+relieve,mitigate,1,1,1,0
+immolate,sacrifice,1,1,0,0
+skive,shave,1,1,1,0
+follow,result,1,1,0,0
+carouse,revel,1,1,0,0
+recommit,entrust,1,1,0,0
+tree,chase,1,1,1,0
+ground,restrain,1,1,0,0
+drive,hunt,1,1,1,0
+letter,write,1,1,1,0
+gutter,provide,1,1,0,0
+drag on,last,1,1,0,0
+shoot,throw,1,1,0,0
+address,target,1,1,1,0
+leapfrog,progress,1,1,0,0
+test,take,1,1,0,0
+divide,calculate,1,1,0,0
+capture,represent,1,1,1,0
+take away,reduce,1,1,0,0
+top out,leave office,1,1,0,0
+jettison,throw,1,1,0,0
+threaten,bode,1,1,1,0
+splurge,flaunt,1,1,1,0
+bloat,swell,1,1,0,0
+farrow,give birth,1,1,0,0
+vegetate,grow,1,1,0,0
+capitalize,change,1,1,0,0
+be due,result,1,1,0,0
+referee,review,1,1,0,0
+shampoo,wash,1,1,0,0
+spat,quarrel,1,1,1,0
+blight,afflict,1,1,1,0
+blend in,blend,1,1,0,0
+poach,cook,1,1,0,0
+poll,snip,1,1,1,0
+slang,speak,1,1,0,0
+jug,stew,1,1,0,0
+transfix,pierce,1,1,1,0
+whipsaw,cheat,1,1,0,0
+cross oneself,gesticulate,1,1,1,0
+wash,cleanse,1,1,1,0
+dehumanize,take down,1,1,0,0
+finger,indicate,1,1,1,0
+concrete,solidify,1,1,1,0
+come to life,be born,1,1,0,0
+recuse,reject,1,1,1,0
+hurl,throw,1,1,0,0
+nurse,treat,1,1,1,0
+towel,wipe,1,1,1,0
+line up,stand,1,1,1,0
+crunch,chew,1,1,0,0
+geld,emasculate,1,1,1,0
+cuff,slap,1,1,1,0
+imbricate,overlap,1,1,1,0
+podcast,circulate,1,1,1,0
+recurve,crook,1,1,1,0
+absorb,blend,1,1,1,0
+write,record,1,1,1,0
+cord,tie,1,1,1,0
+string,arrange,1,1,1,0
+staff,provide,1,1,1,0
+depopulate,shrink,1,1,0,0
+die,ache,1,1,0,0
+stack,arrange,1,1,0,0
+examine,question,1,1,0,0
+bring out,encourage,1,1,0,0
+grain,paint,1,1,0,0
+bid,plead,1,1,0,0
+fall,be born,1,1,0,0
+write in,vote,1,1,0,0
+beat up,collect,1,1,0,0
+sign,validate,1,1,1,0
+call,indicate,1,1,1,0
+interpolate,calculate,1,1,0,0
+bury,lay,1,1,0,0
+wanton,chat up,1,1,1,0
+dam,obstruct,1,1,1,0
+captain,head,1,1,1,0
+wear,last,1,1,1,0
+dress,arrange,1,1,1,0
+dress,groom,1,1,1,0
+prospect,research,1,1,0,0
+verge,bound,1,1,0,0
+infest,invade,1,1,1,0
+rerun,run,1,1,0,0
+scull,row,1,1,0,0
+go to pot,deteriorate,1,1,0,0
+hurdle,vault,1,1,1,0
+certificate,award,1,1,0,0
+adjust,decide,1,1,1,0
+trivialize,understate,1,1,0,0
+nitpick,knock,1,1,1,0
+quantize,calculate,1,1,0,0
+remount,mount,1,1,0,0
+thin out,reduce,1,1,0,0
+dominate,influence,1,1,0,0
+fiddle,play,1,1,0,0
+skim,throw,1,1,0,0
+meet,provide,1,1,1,0
+bathe,cleanse,1,1,1,0
+shimmer,glitter,1,1,1,0
+initial,sign,1,1,0,0
+cut in,pull,1,1,0,0
+pain,upset,1,1,1,0
+stamp,shape,1,1,0,0
+feather,row,1,1,1,0
+minstrel,sing,1,1,0,0
+cut,extinguish,1,1,1,0
+dun,cure,1,1,0,0
+fantasy,imagine,1,1,1,0
+fix up,provide,1,1,0,0
+letter,print,1,1,1,0
+impersonate,act,1,1,0,0
+redouble,escalate,1,1,1,0
+braille,transliterate,1,1,1,0
+bayonet,knife,1,1,0,0
+skip,bounce,1,1,0,0
+author,write,1,1,0,0
+bounce,eject,1,1,0,0
+crane,stretch,1,1,1,0
+spell,recite,1,1,1,0
+paw,scrape,1,1,0,0
+augur,predict,1,1,0,0
+wrench,pull,1,1,0,0
+archive,collect,1,1,1,0
+disinter,excavate,1,1,0,0
+establish,initiate,1,1,0,0
+standardize,measure,1,1,0,0
+blaze,mark,1,1,0,0
+seal,close,1,1,1,0
+take in,house,1,1,0,0
+tell,inform,1,1,0,0
+drop,deliver,1,1,0,0
+twist,injure,1,1,1,0
+coop up,confine,1,1,0,0
+solemnize,marry,1,1,0,0
+infect,pollute,1,1,1,0
+prawn,fish,1,1,0,0
+cancel,balance,1,1,0,0
+tease,comb,1,1,1,0
+juggle,cheat,1,1,0,0
+knock out,extinguish,1,1,1,0
+tend,take care,1,1,0,0
+pound,restrain,1,1,0,0
+involve,absorb,1,1,1,0
+sonnet,verse,1,1,0,0
+voodoo,hex,1,1,1,0
+misquote,quote,1,1,1,0
+elbow,jostle,1,1,0,0
+pan roast,roast,1,1,0,0
+bush out,expand,1,1,0,0
+organize,initiate,1,1,1,0
+admire,respect,1,1,0,0
+bromate,react,1,1,0,0
+draw,effect,1,1,0,0
+credit,trust,1,1,0,0
+cheer,applaud,1,1,1,0
+drown,die,1,1,1,0
+hatch,be born,1,1,0,0
+stale,make,1,1,0,0
+barber,groom,1,1,1,0
+dip,immerse,1,1,1,0
+lace,tie,1,1,1,0
+finance,pay,1,1,1,0
+rig,equip,1,1,1,0
+signify,indicate,1,1,0,0
+blister,attack,1,1,0,0
+queen,promote,1,1,0,0
+wink,gesticulate,1,1,1,0
+come,become,1,1,0,0
+hold,postpone,1,1,1,0
+answer,meet,1,1,0,0
+quintuple,multiply,1,1,0,0
+prejudice,disadvantage,1,1,0,0
+prepay,pay,1,1,0,0
+plunge,drop,1,1,0,0
+authenticate,attest,1,1,1,0
+ruffle,fold,1,1,0,0
+rustle,scrounge,1,1,1,0
+play around,cheat on,1,1,1,0
+predispose,dispose,1,1,0,0
+rehouse,house,1,1,0,0
+entertain,socialize,1,1,1,0
+talk down,talk,1,1,0,0
+cascade,arrange,1,1,0,0
+raise hell,object,1,1,0,0
+erupt,trouble,1,1,0,0
+whistlestop,campaign,1,1,0,0
+balloon,fly,1,1,1,0
+croon,sing,1,1,0,0
+mainline,inject,1,1,1,0
+bog down,slow,1,1,1,0
+smolder,burn,1,1,0,0
+administer,direct,1,1,1,0
+trail,drag,1,1,1,0
+nucleate,become,1,1,1,0
+cover,compensate,1,1,1,0
+outgrow,surpass,1,1,1,0
+faze,upset,1,1,1,0
+obliterate,blur,1,1,1,0
+bunch together,cluster,1,1,0,0
+freeze,anesthetize,1,1,1,0
+cross examine,examine,1,1,0,0
+quicken,stimulate,1,1,0,0
+wire,string,1,1,0,0
+bushwhack,make,1,1,0,0
+dry-dock,dock,1,1,0,0
+grade,measure,1,1,0,0
+steam,cook,1,1,0,0
+overcharge,cheat,1,1,1,0
+keep,record,1,1,0,0
+decouple,extinguish,1,1,1,0
+set,arrange,1,1,1,0
+play possum,feign,1,1,1,0
+attack,knock,1,1,1,0
+flare,burn,1,1,0,0
+bring in,present,1,1,0,0
+emerge,surface,1,1,0,0
+spur,encourage,1,1,0,0
+cave,explore,1,1,1,0
+sun,expose,1,1,1,0
+bubble up,surface,1,1,0,0
+fleece,cut,2,2,0,0
+cosponsor,support,2,2,0,0
+heft,quantify,2,2,0,0
+whang,knock,2,2,0,0
+consume,pay,2,2,1,0
+wash up,bring,2,2,0,0
+dote,develop,2,2,1,0
+claw,knock,2,2,1,0
+scavenge,provide,2,2,0,0
+article,relate,2,2,1,0
+masquerade,deceive,2,2,1,0
+stroke,boat,2,2,0,0
+deceive,wrong,2,2,0,0
+strike,indicate,2,2,0,0
+filigree,fashion,2,2,0,0
+underwrite,promise,2,2,0,0
+upstage,surpass,2,2,0,0
+chronicle,save,2,2,0,0
+spar,converse,2,2,1,0
+atomize,scatter,2,2,1,0
+obliterate,weaken,2,2,0,0
+send a message,convey,2,2,0,0
+check,entrust,2,2,1,0
+try,dissolve,2,2,1,0
+fall back,lean,2,2,0,0
+aggregate,become,2,2,0,0
+black marketeer,transact,2,2,1,0
+propound,hash out,2,2,1,0
+come of age,mature,2,2,1,0
+uphold,argue,2,2,0,0
+lunch,provide,2,2,0,0
+sonnet,write,2,2,0,0
+regurgitate,provide,2,2,0,0
+plank,provide,2,2,0,0
+go through the motions,act,2,2,0,0
+shampoo,cleanse,2,2,1,0
+cuddle,clasp,2,2,0,0
+wanton,pay,2,2,1,0
+poll,thin out,2,2,1,0
+financier,direct,2,2,1,0
+clamor,request,2,2,0,0
+quiz,question,2,2,0,0
+weather,resist,2,2,1,0
+phase in,initiate,2,2,0,0
+pencil,represent,2,2,0,0
+extort,cheat,2,2,1,0
+secure,pledge,2,2,1,0
+wisecrack,note,2,2,0,0
+define,distinguish,2,2,1,0
+pledge,entrust,2,2,0,0
+mumble,grate,2,2,0,0
+call,request,2,2,0,0
+refocus,sharpen,2,2,1,0
+marble,dye,2,2,0,0
+deny,restrain,2,2,1,0
+chew the fat,talk,2,2,0,0
+eat,perturb,2,2,1,0
+pan roast,cook,2,2,0,0
+blaze,bespeak,2,2,0,0
+crimp,twist,2,2,1,0
+consummate,complete,2,2,1,0
+square,calculate,2,2,0,0
+chastise,knock,2,2,1,0
+hock,injure,2,2,1,0
+lay out,pay,2,2,0,0
+subpoena,deliver,2,2,0,0
+pipe in,bring,2,2,0,0
+hold,delay,2,2,0,0
+dissuade,hash out,2,2,0,0
+mound over,shape,2,2,0,0
+cut in,blend,2,2,0,0
+stand up,argue,2,2,1,0
+legalize,accept,2,2,0,0
+cork,close,2,2,1,0
+lighten,applaud,2,2,0,0
+beat,boat,2,2,0,0
+serve,encourage,2,2,1,0
+hydrate,moisten,2,2,1,0
+mutiny,protest,2,2,0,0
+carry,balance,2,2,0,0
+reckon,calculate,2,2,0,0
+register,save,2,2,1,0
+tease,tear,2,2,0,0
+spearhead,direct,2,2,1,0
+probate,delay,2,2,0,0
+tease,groom,2,2,1,0
+elide,extinguish,2,2,1,0
+skirt,enclose,2,2,1,0
+chink,close,2,2,0,0
+iron,flatten,2,2,1,0
+plead,request,2,2,0,0
+bracket,classify,2,2,1,0
+saute,cook,2,2,0,0
+sop,pay,2,2,0,0
+size,categorize,2,2,1,0
+shore,enclose,2,2,1,0
+reshoot,record,2,2,0,0
+flame,call on the carpet,2,2,1,0
+stand,copulate,2,2,1,0
+log,save,2,2,0,0
+entail,leave,2,2,1,0
+set,implant,2,2,1,0
+push,rede,2,2,1,0
+bridle,restrict,2,2,0,0
+hem and haw,delay,2,2,0,0
+rig,deceive,2,2,1,0
+team,meet,2,2,1,0
+salaam,greet,2,2,0,0
+proportion,relate,2,2,1,0
+concentrate,meet,2,2,1,0
+box,enclose,2,2,1,0
+indenture,relate,2,2,1,0
+huddle,meet,2,2,0,0
+threaten,bespeak,2,2,0,0
+salute,address,2,2,0,0
+submit,accept,2,2,1,0
+close,obstruct,2,2,1,0
+sign,promise,2,2,1,0
+raise,gamble,2,2,0,0
+plat,represent,2,2,0,0
+congratulate,greet,2,2,1,0
+escape,flee,2,2,1,0
+shark,deceive,2,2,1,0
+minimize,knock,2,2,1,0
+wire,arrange,2,2,1,0
+diagram,represent,2,2,1,0
+typeset,write,2,2,0,0
+carry back,calculate,2,2,0,0
+chomp,grate,2,2,0,0
+reinsure,protect,2,2,0,0
+shear,thin out,2,2,1,0
+invest,pay,2,2,1,0
+chart,represent,2,2,1,0
+grouse,hunt,2,2,1,0
+fund,pay,2,2,1,0
+pay up,settle,2,2,0,0
+meter,affix,2,2,1,0
+gloat,overstate,2,2,0,0
+mind,disapprove,2,2,1,0
+sugarcoat,present,2,2,0,0
+wish,address,2,2,0,0
+beggar,elude,2,2,1,0
+deflate,fold,2,2,0,0
+razor,groom,2,2,1,0
+agonize,upset,2,2,1,0
+bother,embarrass,2,2,1,0
+lock in,restrain,2,2,0,0
+stuff,obstruct,2,2,1,0
+bale,store,2,2,0,0
+redouble,multiply,2,2,1,0
+take in,tour,2,2,0,0
+cartoon,represent,2,2,0,0
+faggot,restrain,2,2,0,0
+bloat,grow,2,2,1,0
+quest,request,2,2,0,0
+barbeque,cook,2,2,0,0
+ensnare,victimize,2,2,1,0
+give,honor,2,2,0,0
+bid,appeal,2,2,0,0
+cut,develop,2,2,0,0
+victimize,victimize,2,2,0,0
+crochet,knit,2,2,0,0
+fluster,embarrass,2,2,1,0
+play possum,misrepresent,2,2,1,0
+restrict,restrain,2,2,1,0
+condemn,knock,2,2,1,0
+archive,roll up,2,2,1,0
+doubt,reject,2,2,1,0
+predispose,determine,2,2,0,0
+sling,throw,2,2,0,0
+pour,meet,2,2,1,0
+take,copulate,2,2,1,0
+skin over,better,2,2,0,0
+freeze,deny,2,2,0,0
+compliment,measure,2,2,0,0
+set up,initiate,2,2,0,0
+speak of the devil,think of,2,2,0,0
+chamber,shelter,2,2,1,0
+pool,meet,2,2,0,0
+delineate,represent,2,2,0,0
+relay,manipulate,2,2,0,0
+frap,tie,2,2,0,0
+salt,scatter,2,2,1,0
+can,cook,2,2,0,0
+pack,enclose,2,2,1,0
+exfoliate,develop,2,2,0,0
+frizzle,cook,2,2,0,0
+torment,upset,2,2,1,0
+reflate,expand,2,2,0,0
+cross examine,question,2,2,0,0
+jibe,boat,2,2,0,0
+lave,flood,2,2,1,0
+enlist,register,2,2,0,0
+quell,provide,2,2,0,0
+deride,treat,2,2,0,0
+flute,fold,2,2,0,0
+phase,initiate,2,2,0,0
+chaw,grate,2,2,0,0
+corn,cook,2,2,0,0
+exemplify,clarify,2,2,0,0
+mythologize,think up,2,2,0,0
+bet,guess,2,2,1,0
+wanton,talk,2,2,0,0
+ask,request,2,2,0,0
+gag,harm,2,2,0,0
+puff,overstate,2,2,1,0
+photograph,save,2,2,1,0
+invoke,think of,2,2,0,0
+discredit,reject,2,2,0,0
+answer,provide,2,2,0,0
+foment,cleanse,2,2,1,0
+absorb,support,2,2,0,0
+call,demand,2,2,0,0
+dogfight,initiate,2,2,0,0
+marcel,dress,2,2,0,0
+schnorr,request,2,2,0,0
+highlight,groom,2,2,1,0
+character,carve,2,2,1,0
+shoot,develop,2,2,0,0
+tip off,hash out,2,2,1,0
+rear back,straighten,2,2,1,0
+sacrifice,worship,2,2,0,0
+ridicule,treat,2,2,0,0
+decorate,recognize,2,2,1,0
+reprieve,delay,2,2,0,0
+clip,reduce,2,2,0,0
+blow,pay,2,2,1,0
+work,direct,2,2,1,0
+cosign,sign,2,2,0,0
+pyramid,transact,2,2,1,0
+refine,weaken,2,2,0,0
+vex,hash out,2,2,1,0
+misprint,write,2,2,0,0
+shake,flee,2,2,1,0
+back,pay,2,2,1,0
+rat,stuff,2,2,1,0
+dispatch,effect,2,2,0,0
+illustrate,represent,2,2,0,0
+tidy,arrange,2,2,0,0
+mortify,restrain,2,2,0,0
+lowball,calculate,2,2,0,0
+spat,argue,2,2,1,0
+camp,rear,2,2,0,0
+hibachi,cook,2,2,0,0
+take in,shelter,2,2,0,0
+raise,think of,2,2,0,0
+garden,attend,2,2,1,0
+press,shape,2,2,0,0
+grass,provide,3,3,1,0
+archive,store,3,3,0,0
+gag,injure,3,3,1,0
+goose,manipulate,3,3,1,0
+dock,deny,3,3,1,0
+talk down,knock,3,3,0,0
+bid,request,3,3,0,0
+gargle,groom,3,3,1,0
+shill,wrong,3,3,0,0
+double cross,victimize,3,3,1,0
+mark off,restrain,3,3,0,0
+fly blind,manipulate,3,3,0,0
+cheat on,wrong,3,3,0,0
+tease,treat,3,3,0,0
+stiffen,restrain,3,3,0,0
+distend,grow,3,3,1,0
+reserve,convey,3,3,1,0
+speculate,pay,3,3,1,0
+ration,distribute,3,3,0,0
+preach,hash out,3,3,1,0
+swear,promise,3,3,1,0
+give,entrust,3,3,1,0
+belabor,note,3,3,0,0
+reshoot,save,3,3,0,0
+barrack,shelter,3,3,0,0
+test fly,manipulate,3,3,0,0
+spat,converse,3,3,0,0
+salaam,address,3,3,0,0
+roll over,hash out,3,3,0,0
+press,meet,3,3,0,0
+encore,convey,3,3,0,0
+seek,question,3,3,0,0
+rat,cram,3,3,1,0
+stand up,present,3,3,0,0
+poll,reduce,3,3,0,0
+override,balance,3,3,0,0
+desire,convey,3,3,1,0
+ply,complete,3,3,0,0
+drift,provide,3,3,0,0
+overcharge,wrong,3,3,0,0
+initial,promise,3,3,0,0
+chaw,break up,3,3,0,0
+bat mitzvah,promise,3,3,1,0
+license,accept,3,3,1,0
+rig,victimize,3,3,1,0
+execute,promise,3,3,1,0
+batch,categorize,3,3,1,0
+tool,manipulate,3,3,1,0
+declare,accept,3,3,1,0
+turn,complete,3,3,1,0
+deceive,treat,3,3,0,0
+bleed,cheat,3,3,1,0
+stopper,fill,3,3,1,0
+rush,hash out,3,3,1,0
+pull,stand,3,3,1,0
+book,save,3,3,1,0
+take lying down,accept,3,3,0,0
+acclaim,measure,3,3,0,0
+write,save,3,3,1,0
+fritter,pay,3,3,1,0
+premise,clarify,3,3,1,0
+revolt,oppose,3,3,1,0
+ensnare,wrong,3,3,0,0
+run out,pay,3,3,0,0
+extort,victimize,3,3,1,0
+lift,pay,3,3,1,0
+demand,convey,3,3,1,0
+certificate,assign,3,3,0,0
+parlay,gamble,3,3,0,0
+trespass,relate,3,3,1,0
+crack up,measure,3,3,0,0
+turn,effect,3,3,1,0
+blacklist,record,3,3,0,0
+come of age,develop,3,3,0,0
+harsh on,note,3,3,0,0
+augur,speculate,3,3,0,0
+reduce,withhold,3,3,1,0
+drop the ball,relate,3,3,0,0
+spar,talk,3,3,1,0
+play around,victimize,3,3,1,0
+quarrel,talk,3,3,0,0
+commission,accept,3,3,0,0
+mumble,break up,3,3,1,0
+disenfranchise,deny,3,3,0,0
+digest,arrange,3,3,1,0
+fawn,measure,3,3,0,0
+bag,enclose,3,3,1,0
+localize,restrain,3,3,0,0
+mutiny,oppose,3,3,0,0
+draw the line,restrain,3,3,0,0
+cut,save,3,3,1,0
+tie up,pay,3,3,0,0
+invite,convey,3,3,0,0
+revolt,reject,4+,6,0,0
+reduce,deny,4+,4,0,0
+recruit,record,4+,4,1,0
+lighten,measure,4+,4,0,0
+betray,treat,4+,4,0,0
+shill,treat,4+,4,0,0
+crave,convey,4+,6,0,0
+cheat on,treat,4+,4,0,0
+curse,note,4+,5,0,0
+pull,manipulate,4+,4,1,0
+extort,treat,4+,5,0,0
+suffocate,restrain,4+,4,1,0
+rebate,reduce,4+,4,0,0
+overspend,pay,4+,4,0,0
+cut in,manipulate,4+,5,0,0
+minimize,note,4+,4,0,0
+requisition,convey,4+,4,0,0
+rig,wrong,4+,4,0,0
+pretend,convey,4+,4,0,0
+kill,reject,4+,5,1,0
+challenge,request,4+,4,0,0
+recruit,save,4+,5,1,0
+rebel,reject,4+,5,0,0
+blacklist,save,4+,4,0,0
+confirm,accept,4+,4,1,0
+condemn,note,4+,4,0,0
+embroil,accept,4+,4,0,0
+matriculate,save,4+,4,0,0
+sign,accept,4+,4,1,0
+probate,accept,4+,4,1,0
+crave,request,4+,4,0,0
+champion,accept,4+,5,1,0
+visa,accept,4+,4,1,0
+plead,convey,4+,4,0,0
+clamor,convey,4+,4,0,0
+fudge,treat,4+,5,0,0
+bid,convey,4+,5,0,0
+talk down,note,4+,5,0,0
+flame,note,4+,5,0,0
+certificate,distribute,4+,4,1,0
+lift,settle,4+,4,1,0

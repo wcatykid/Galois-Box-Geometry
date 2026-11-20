@@ -1,0 +1,12 @@
+{
+  "test_nouns_total": 541,
+  "wn_directed_edges": 74645,
+  "overlap_either": 67,
+  "overlap_directed": 52,
+  "overlap_reverse": 15,
+  "non_overlap": 474,
+  "overlap_pct": 12.384473197781885,
+  "non_overlap_scores_mean": 5.365886075949367,
+  "overlap_scores_mean": 6.874328358208954,
+  "word_level_overlap_pct": 94.23076923076923
+}

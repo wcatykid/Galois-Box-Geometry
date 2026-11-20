@@ -1,0 +1,6 @@
+method,hyperparameters,fixed_count,fix_rate,new_violations,net_improvement,final_violation_rate,Galois_gap_change,mean_box_displacement,aggregate_score
+Coordinate descent,"step_size=0.3,iterations=20",1114,1.0,0,1114,0.0,0.2104903379516363,0.2550982275072354,1.7110336121255003
+Coordinate descent,"step_size=0.3,iterations=15",1112,0.9982046678635548,0,1112,0.0007880220646178094,0.21075181565760215,0.25493106678069755,1.7070874555429003
+Hybrid warm-start,"step_size=0.3,iterations=20,warm_start_iters=5,lambda_p=1.0,lambda_a=0.0,top_fraction=0.2",1109,0.9955116696588869,0,1109,0.001970055161544523,0.20965571374080572,0.254370847076616,1.7032007071483373
+Hybrid warm-start,"step_size=0.3,iterations=15,warm_start_iters=5,lambda_p=1.0,lambda_a=0.0,top_fraction=0.2",1109,0.9955116696588869,2,1107,0.0027580772261623326,0.21041447874850516,0.25419908656798423,1.6995835265751844
+No refinement,-,0,0.0,0,0,0.4389282899921198,0.0,0.0,0.0
